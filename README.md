@@ -43,8 +43,18 @@ Model: Deliberate - 768x768 - Sampling Method: Euler a - Steps: 20 - Seed: 20634
 ### Human:suggest a prompt for a mysterious lake in the night
 ### Assistant: Mysterious lake, night scene, dark and moody, atmospheric, spooky, gothic, creepy, haunting, eerie, suspenseful, dramatic lightning, cinematic lightning, octane render, unreal engine, realistic reflections, water reflections, moonlight, starry sky, mysterious atmosphere, dark and gritty
 ```
+### 3. Suggest a prompt for a ghost ship on the ocean
 
-### 2. Suggest a prompt for a portrait of Danial Craig
+<img src="https://user-images.githubusercontent.com/83492589/231880244-4e3e8555-e0b0-4096-9070-195e632dd402.png" width="600" height="600" /> 
+Model: Deliberate - 768x768 - Sampling Method: Euler a - Steps: 20 - Seed: 304886124
+
+#### Request
+```
+### Human:suggest a prompt for a ghost ship on the ocean
+### Assistant: Ghost ship, abandoned ship, creepy atmosphere, spooky, dark, ominous, mysterious, cinematic lightning, dramatic lightning, octane render, unreal engine, realistic, highly detailed, textured, 3D modeling, digital art, 3D illustration
+```
+
+### 4. Suggest a prompt for a portrait of Danial Craig
 <img src="https://user-images.githubusercontent.com/83492589/231801089-9ac5238a-0282-4997-a2f6-e4c405df1fe6.png" width="600" height="600" /> 
 Model: Deliberate - 768x768 - Sampling Method: Euler a - Steps: 20 - Seed: 874348722
 
