@@ -78,7 +78,7 @@ wget "https://raw.githubusercontent.com/vicuna-tools/Stablediffy.txt/main/Stable
 Navigate back to the `llama.cpp` folder
 Run the vicuna model with the Stablediffy.txt prompt-file
 ```
-./main -m ./models/ggml-vicuna-13b-4bit-rev1.bin --repeat_penalty 1.0 --color -i -r "### Human:" -f prompts/Stablediffy.txt
+./main -m ./models/vicuna-13B-1.1-GPTQ-4bit-128g.GGML.bin --repeat_penalty 1.0 --color -i -r "### Human:" -f prompts/Stablediffy.txt
 ```
 This should start processing the Stablediffy.txt file
 After the last processed conversation example:
