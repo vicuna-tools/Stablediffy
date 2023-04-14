@@ -17,10 +17,10 @@
 </div>
 
 ## How it works
-The Stablediffy.txt file is a prompt-file for the vicuna model, similar to the chat-with-bob.txt file.<br>
-First, The situation is described.
-Secondly, a few keywords like "dramatic lightning" are listed, to teach vicuna them.
-Third, a few sample responses from Stablediffy to the rough sentences from the Human are listed, to teach vicuna how it should respond.
+The file Stablediffy.txt is a prompt file for the Vicuna model, similar to the file chat-with-bob.txt.
+First, the situation is described. 
+Secondly, some keywords like "dramatic lightning" are listed to teach them to Vicuna. 
+Third, some sample responses from Stablediffy to the human's rough queries are listed to teach Vicuna how to respond.
 
 
 ## Examples
