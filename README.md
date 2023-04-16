@@ -22,6 +22,8 @@ First, the situation is described.
 Secondly, some keywords like "dramatic lightning" are listed to teach them to Vicuna. 
 Third, some sample responses from Stablediffy to the human's rough queries are listed to teach Vicuna how to respond.
 
+### Disclaimer
+You can try the prompt-file with other AI language models too.
 
 ## Examples
 ### 1. Suggest a prompt for an mysterious house
