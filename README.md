@@ -78,15 +78,17 @@ wget "https://raw.githubusercontent.com/vicuna-tools/Stablediffy.txt/main/Stable
 ```
 ## Usage 
 Navigate back to the `llama.cpp` folder
-Run the vicuna model with the Stablediffy.txt prompt-file
+Run the vicuna model with the Stablediffy.txt prompt-file (13B)
 ```
-./main -m ./models/vicuna-13B-1.1-GPTQ-4bit-128g.GGML.bin --repeat_penalty 1.0 --color -i -r "### Human:" -f prompts/Stablediffy.txt
+./main -m models/ggml-vic13b-q5_1.bin -f 'prompts/Stablediffy.txt' -r 'USER:'
+```
+Run the vicuna model with the Stablediffy.txt prompt-file (7B)
+```
+./main -m models/ggml-vic7b-q5_1.bin -f 'prompts/Stablediffy.txt' -r 'USER:'
 ```
 This should start processing the Stablediffy.txt file
 After the last processed conversation example:
 
-`### Assistant: Car in 1950, highly detailed, classic car, 1950's...`
+`USER: Car in 1950, highly detailed, classic car, 1950's...`
 
-#### You should see the prompt-input `### Human:`, there you can start asking for stable diffusion prompts
-
-![untitled](https://user-images.githubusercontent.com/83492589/231721945-e58890ed-ac13-4872-a2ae-d1d918b2ca00.gif)
+#### You should see the prompt-input `USER:`, there you can start asking for stable diffusion prompts
